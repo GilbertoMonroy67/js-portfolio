@@ -1,4 +1,10 @@
-@import "https://fonts.googleapis.com/css?family=Ubuntu:300,400,500";
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('../assets/fonts/ubuntu-regular.woff2') format('woff2'),
+	url('../assets/fonts/ubuntu-regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
 
 html {
 	font-family: sans-serif;
@@ -148,7 +154,7 @@ html input[type=button],
 input[type=reset],
 input[type=submit] {
 	-webkit-appearance: button;
-	cursor: pointer
+		cursor: pointer
 }
 
 button[disabled],
